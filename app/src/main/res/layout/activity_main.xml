@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:src="@mipmap/hqdefault"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vinicius_oliveira"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/cor_principal_fonte"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/professor_na_digital_house_brasil"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/cor_secundaria_fonte"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s_o_paulo_vila_ol_mpia"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/cor_secundaria_fonte"
+        android:layout_marginTop="10dp"
+       />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_20_583"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/cor_principal_fonte"
+            android:textStyle="bold"
+
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seguidores"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/cor_secundaria_fonte"
+            android:layout_marginLeft="5dp"
+
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_112_824"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/cor_principal_fonte"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visualiza_es"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/cor_secundaria_fonte"
+            android:layout_marginLeft="5dp"
+
+
+            />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/botao_seguir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seguir"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:background="@color/cor_principal_fonte"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        />
+
+
+
+
+
+</LinearLayout>
